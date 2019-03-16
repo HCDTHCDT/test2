@@ -1,3 +1,4 @@
+#subtract added
 class Employee:
     def __init__(self,first,last,pay):
         #a convection .... self is default..
