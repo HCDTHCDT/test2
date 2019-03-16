@@ -8,7 +8,7 @@ class Employee:
         #self.mail=first +"."+last+"@company.com"
     @property
     def mail(self):
-        return ("{}.{}@email.com".format(self.first, self.last))
+        return ("{}.{}@emailiiii.com".format(self.first, self.last))
     @property
     def fullname(self):
         return ("{} {}".format(self.first, self.last))
@@ -32,14 +32,13 @@ print(emp_1.mail)#wrong for methods
 print(emp_1.fullname)#() without property
 #what is the problem?...email has been set once at the beginning...we can create a method for that like fullname()
 #or use set & get
-#in order to access mail like an attribute we should add a property decorator to the method
+#in order to access mai\utokoadd a property decorator to the method
 #print(emp_1.mail())
 # now it has type error
-#try to set them again
-#emp_1.mail="gggggggg"
-#ERROR
+#try to set thg"
+#ERRORpl
 #now use setter & getter
-emp_1.fullname="Ali Alavi"
+emp_1.fullname="Ali [ppppAlavi"
 print(emp_1.fullname)
 #delete
 del emp_1.fullname
